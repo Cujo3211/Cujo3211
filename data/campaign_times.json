@@ -1,0 +1,508 @@
+{
+  "ce": {
+    "title": "HALO: COMBAT EVOLVED",
+    "short": "HALO: CE",
+    "icon": "https://halo.wiki.gallery/images/9/96/HTMCC_HCE_Title_Icon.png",
+    "missions": [
+      {
+        "name": "The Pillar of Autumn",
+        "image": "assets/images/loading-screens/halo-ce/01_the-pillar-of-autumn.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:24:25",
+        "coop": "0:11:01"
+      },
+      {
+        "name": "Halo",
+        "image": "assets/images/loading-screens/halo-ce/02_halo.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "1:25:14",
+        "coop": "0:26:01"
+      },
+      {
+        "name": "The Truth and Reconciliation",
+        "image": "assets/images/loading-screens/halo-ce/03_the-truth-and-reconciliation.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "2:55:52",
+        "coop": "0:37:29"
+      },
+      {
+        "name": "The Silent Cartographer",
+        "image": "assets/images/loading-screens/halo-ce/04_the-silent-cartographer.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:50:47",
+        "coop": "0:20:27"
+      },
+      {
+        "name": "Assault on the Control Room",
+        "image": "assets/images/loading-screens/halo-ce/05_assault-on-the-control-room.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:09:48",
+        "coop": "0:42:54"
+      },
+      {
+        "name": "343 Guilty Spark",
+        "image": "assets/images/loading-screens/halo-ce/06_343-guilty-spark.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:11:30",
+        "coop": "0:24:46"
+      },
+      {
+        "name": "The Library",
+        "image": "assets/images/loading-screens/halo-ce/07_the-library.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:50:33"
+      },
+      {
+        "name": "Two Betrayals",
+        "image": "assets/images/loading-screens/halo-ce/08_two-betrayals.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:51:28"
+      },
+      {
+        "name": "Keyes",
+        "image": "assets/images/loading-screens/halo-ce/09_keyes.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:06:30",
+        "coop": "0:05:07"
+      },
+      {
+        "name": "The Maw",
+        "image": "assets/images/loading-screens/halo-ce/10_the-maw.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:26:31"
+      }
+    ]
+  },
+  "h2": {
+    "title": "HALO 2",
+    "short": "HALO 2",
+    "icon": "https://www.halopedia.org/images/7/73/HTMCC_H2_Title_Icon.png?d5397",
+    "missions": [
+      {
+        "name": "Cairo Station",
+        "image": "assets/images/loading-screens/halo-2/02_cairo-station.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:25:31",
+        "coop": "0:36:11"
+      },
+      {
+        "name": "Outskirts",
+        "image": "assets/images/loading-screens/halo-2/03_outskirts.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:10:13",
+        "coop": "0:13:42"
+      },
+      {
+        "name": "Metropolis",
+        "image": "assets/images/loading-screens/halo-2/04_metropolis.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:15:00",
+        "coop": "0:23:15"
+      },
+      {
+        "name": "The Arbiter",
+        "image": "assets/images/loading-screens/halo-2/05_the-arbiter.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:13:17",
+        "coop": "0:31:51"
+      },
+      {
+        "name": "The Oracle",
+        "image": "assets/images/loading-screens/halo-2/06_the-oracle.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "0:22:23",
+        "coop": "0:49:52"
+      },
+      {
+        "name": "Delta Halo",
+        "image": "assets/images/loading-screens/halo-2/07_delta-halo.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:08:01",
+        "coop": "0:29:52"
+      },
+      {
+        "name": "Regret",
+        "image": "assets/images/loading-screens/halo-2/08_regret.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:35:28",
+        "coop": "1:15:09"
+      },
+      {
+        "name": "Sacred Icon",
+        "image": "assets/images/loading-screens/halo-2/09_sacred-icon.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:15:03",
+        "coop": "1:22:17"
+      },
+      {
+        "name": "Quarantine Zone",
+        "image": "assets/images/loading-screens/halo-2/10_quarantine-zone.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:13:29",
+        "coop": "0:17:28"
+      },
+      {
+        "name": "Gravemind",
+        "image": "assets/images/loading-screens/halo-2/11_gravemind.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "1:09:44",
+        "coop": "2:30:25"
+      },
+      {
+        "name": "Uprising",
+        "image": "assets/images/loading-screens/halo-2/12_uprising.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:02:25",
+        "coop": "0:29:59"
+      },
+      {
+        "name": "High Charity",
+        "image": "assets/images/loading-screens/halo-2/13_high-charity.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:19:12",
+        "coop": "0:43:20"
+      },
+      {
+        "name": "The Great Journey",
+        "image": "assets/images/loading-screens/halo-2/14_the-great-journey.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:15:24",
+        "coop": "0:43:16"
+      }
+    ]
+  },
+  "h3": {
+    "title": "HALO 3",
+    "short": "HALO 3",
+    "icon": "https://www.halopedia.org/images/9/9d/HTMCC_H3_Title_Icon.png?96ef1",
+    "missions": [
+      {
+        "name": "Sierra 117",
+        "image": "assets/images/loading-screens/halo-3/01_sierra-117.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:26:40",
+        "coop": "0:16:58"
+      },
+      {
+        "name": "Crow's Nest",
+        "image": "assets/images/loading-screens/halo-3/02_crows-nest.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:17:38",
+        "coop": "0:23:42"
+      },
+      {
+        "name": "Tsavo Highway",
+        "image": "assets/images/loading-screens/halo-3/03_tsavo-highway.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:19:32",
+        "coop": "0:17:57"
+      },
+      {
+        "name": "The Storm",
+        "image": "assets/images/loading-screens/halo-3/04_the-storm.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:16:06",
+        "coop": "0:25:32"
+      },
+      {
+        "name": "Floodgate",
+        "image": "assets/images/loading-screens/halo-3/05_floodgate.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:05:56",
+        "coop": "0:13:22"
+      },
+      {
+        "name": "The Ark",
+        "image": "assets/images/loading-screens/halo-3/06_the-ark.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:33:30",
+        "coop": "0:38:47"
+      },
+      {
+        "name": "The Covenant",
+        "image": "assets/images/loading-screens/halo-3/07_the-covenant.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:40:35",
+        "coop": "0:40:23"
+      },
+      {
+        "name": "Cortana",
+        "image": "assets/images/loading-screens/halo-3/08_cortana.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:16:47",
+        "coop": "0:19:57"
+      },
+      {
+        "name": "Halo",
+        "image": "assets/images/loading-screens/halo-3/09_halo.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:16:27",
+        "coop": "0:39:09"
+      }
+    ]
+  },
+  "odst": {
+    "title": "HALO 3: ODST",
+    "short": "ODST",
+    "icon": "https://halo.wiki.gallery/images/6/6d/HTMCC_H3-ODST_Title_Icon.png",
+    "missions": [
+      {
+        "name": "Tayari Plaza",
+        "image": "assets/images/loading-screens/halo-3-odst/01_tayari-plaza.png",
+        "par": "0:03:00",
+        "playable": true,
+        "solo": "0:20:23",
+        "coop": "0:13:26"
+      },
+      {
+        "name": "Uplift Reserve",
+        "image": "assets/images/loading-screens/halo-3-odst/02_uplift-reserve.png",
+        "par": "0:04:00",
+        "playable": true,
+        "solo": "0:03:40",
+        "coop": "0:12:14"
+      },
+      {
+        "name": "Kizingo Boulevard",
+        "image": "assets/images/loading-screens/halo-3-odst/03_kizingo-boulevard.png",
+        "par": "0:09:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:14:25"
+      },
+      {
+        "name": "ONI Alpha Site",
+        "image": "assets/images/loading-screens/halo-3-odst/04_oni-alpha-site.png",
+        "par": "0:13:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:11:56"
+      },
+      {
+        "name": "NMPD HQ",
+        "image": "assets/images/loading-screens/halo-3-odst/05_nmpd-hq.png",
+        "par": "0:10:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:11:27"
+      },
+      {
+        "name": "Kikowani Station",
+        "image": "assets/images/loading-screens/halo-3-odst/06_kikowani-station.png",
+        "par": "0:10:00",
+        "playable": true,
+        "solo": "0:00:48",
+        "coop": "0:14:29"
+      },
+      {
+        "name": "Data Hive",
+        "image": "assets/images/loading-screens/halo-3-odst/07_data-hive.png",
+        "par": "0:16:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:20:34"
+      },
+      {
+        "name": "Coastal Highway",
+        "image": "assets/images/loading-screens/halo-3-odst/08_coastal-highway.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "",
+        "coop": "0:26:04"
+      }
+    ]
+  },
+  "reach": {
+    "title": "HALO: REACH",
+    "short": "REACH",
+    "icon": "https://halo.wiki.gallery/images/2/27/HTMCC_HR_Title_Icon.png",
+    "missions": [
+      {
+        "name": "Winter Contingency",
+        "image": "assets/images/loading-screens/halo-reach/01_winter-contingency.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:16:14",
+        "coop": "0:21:55"
+      },
+      {
+        "name": "ONI: Sword Base",
+        "image": "assets/images/loading-screens/halo-reach/02_oni-sword-base.png",
+        "par": "0:10:00",
+        "playable": true,
+        "solo": "0:16:24",
+        "coop": "0:20:17"
+      },
+      {
+        "name": "Nightfall",
+        "image": "assets/images/loading-screens/halo-reach/03_nightfall.png",
+        "par": "0:10:00",
+        "playable": true,
+        "solo": "0:08:30",
+        "coop": "0:05:49"
+      },
+      {
+        "name": "Tip of the Spear",
+        "image": "assets/images/loading-screens/halo-reach/04_tip-of-the-spear.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:13:33",
+        "coop": "0:32:18"
+      },
+      {
+        "name": "Long Night of Solace",
+        "image": "assets/images/loading-screens/halo-reach/05_long-night-of-solace.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "0:32:00",
+        "coop": "0:29:48"
+      },
+      {
+        "name": "Exodus",
+        "image": "assets/images/loading-screens/halo-reach/06_exodus.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:29:18",
+        "coop": "0:27:28"
+      },
+      {
+        "name": "New Alexandria",
+        "image": "assets/images/loading-screens/halo-reach/07_new-alexandria.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:32:10",
+        "coop": "0:28:36"
+      },
+      {
+        "name": "The Package",
+        "image": "assets/images/loading-screens/halo-reach/08_the-package.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:23:02",
+        "coop": "0:30:02"
+      },
+      {
+        "name": "The Pillar of Autumn",
+        "image": "assets/images/loading-screens/halo-reach/09_the-pillar-of-autumn.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:24:22",
+        "coop": "0:39:17"
+      },
+      {
+        "name": "Lone Wolf",
+        "image": "assets/images/loading-screens/halo-reach/10_lone-wolf.png",
+        "par": "",
+        "playable": true,
+        "solo": "0:00:21",
+        "coop": "0:00:52"
+      }
+    ]
+  },
+  "h4": {
+    "title": "HALO 4",
+    "short": "HALO 4",
+    "icon": "https://halo.wiki.gallery/images/9/90/HTMCC_Halo4_Emblem.png",
+    "missions": [
+      {
+        "name": "Dawn",
+        "image": "assets/images/loading-screens/halo-4/01_dawn.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:28:15",
+        "coop": "0:11:08"
+      },
+      {
+        "name": "Requiem",
+        "image": "assets/images/loading-screens/halo-4/02_requiem.png",
+        "par": "0:15:00",
+        "playable": true,
+        "solo": "0:33:29",
+        "coop": "0:20:41"
+      },
+      {
+        "name": "Forerunner",
+        "image": "assets/images/loading-screens/halo-4/03_forerunner.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:27:54",
+        "coop": "0:19:20"
+      },
+      {
+        "name": "Infinity",
+        "image": "assets/images/loading-screens/halo-4/04_infinity.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "0:49:26",
+        "coop": "0:42:26"
+      },
+      {
+        "name": "Reclaimer",
+        "image": "assets/images/loading-screens/halo-4/05_reclaimer.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:20:14",
+        "coop": "0:18:12"
+      },
+      {
+        "name": "Shutdown",
+        "image": "assets/images/loading-screens/halo-4/06_shutdown.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:19:44",
+        "coop": "0:48:23"
+      },
+      {
+        "name": "Composer",
+        "image": "assets/images/loading-screens/halo-4/07_composer.png",
+        "par": "0:20:00",
+        "playable": true,
+        "solo": "0:31:43",
+        "coop": "0:21:31"
+      },
+      {
+        "name": "Midnight",
+        "image": "assets/images/loading-screens/halo-4/08_midnight.png",
+        "par": "0:25:00",
+        "playable": true,
+        "solo": "0:47:43",
+        "coop": "0:40:56"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "changed_files": [
+    {
+      "path": "public/index.html",
+      "reason": "Added Pull from wort.gg button, preview/apply UI, mission mapping, and updated embedded default time overrides."
+    },
+    {
+      "path": "public/data/campaign_times.json",
+      "reason": "Saved latest active campaign times as the only active campaign-times JSON."
+    },
+    {
+      "path": "netlify/functions/pull-wort-times.js",
+      "reason": "Added Netlify proxy for https://wort.gg/api/stats/<gamertag>/campaign."
+    },
+    {
+      "path": "netlify.toml",
+      "reason": "Added functions directory config."
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "reason": "Added v137 changelog."
+    },
+    {
+      "path": "docs/CURRENT_VERSION.md",
+      "reason": "Updated current version note."
+    },
+    {
+      "path": "docs/CHANGED_FILES_v137.json",
+      "reason": "Changed-file manifest."
+    }
+  ],
+  "base_zip": "Halo MCC Tracker.zip",
+  "uploaded_json_source": "campaign_times(2).json",
+  "wort_endpoint": "https://wort.gg/api/stats/Cujo3211/campaign",
+  "checks": {
+    "wort_button_present": true,
+    "wort_mapping_present": true,
+    "netlify_function_exists": true,
+    "only_one_campaign_times_json_in_public_data": true,
+    "keyes_maw_swapped": true,
+    "covenant_correct": true,
+    "variance_legend_removed": true,
+    "node_syntax_ok": true,
+    "one_root_only": true
+  },
+  "node_check": {
+    "ran": true,
+    "ok": true,
+    "stderr": ""
+  }
+}

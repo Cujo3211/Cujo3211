@@ -1,0 +1,415 @@
+[
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 1,
+    "mission": "Winter Contingency",
+    "loading_screen": "assets/images/loading-screens/halo-reach/01_winter-contingency.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 2,
+    "mission": "ONI Sword Base",
+    "loading_screen": "assets/images/loading-screens/halo-reach/02_oni-sword-base.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 3,
+    "mission": "Nightfall",
+    "loading_screen": "assets/images/loading-screens/halo-reach/03_nightfall.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 4,
+    "mission": "Tip of the Spear",
+    "loading_screen": "assets/images/loading-screens/halo-reach/04_tip-of-the-spear.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 5,
+    "mission": "Long Night of Solace",
+    "loading_screen": "assets/images/loading-screens/halo-reach/05_long-night-of-solace.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 6,
+    "mission": "Exodus",
+    "loading_screen": "assets/images/loading-screens/halo-reach/06_exodus.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 7,
+    "mission": "New Alexandria",
+    "loading_screen": "assets/images/loading-screens/halo-reach/07_new-alexandria.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 8,
+    "mission": "The Package",
+    "loading_screen": "assets/images/loading-screens/halo-reach/08_the-package.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 9,
+    "mission": "The Pillar of Autumn",
+    "loading_screen": "assets/images/loading-screens/halo-reach/09_the-pillar-of-autumn.png"
+  },
+  {
+    "game": "Halo Reach",
+    "game_slug": "halo-reach",
+    "mission_number": 10,
+    "mission": "Lone Wolf",
+    "loading_screen": "assets/images/loading-screens/halo-reach/10_lone-wolf.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 1,
+    "mission": "The Pillar of Autumn",
+    "loading_screen": "assets/images/loading-screens/halo-ce/01_the-pillar-of-autumn.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 2,
+    "mission": "Halo",
+    "loading_screen": "assets/images/loading-screens/halo-ce/02_halo.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 3,
+    "mission": "The Truth and Reconciliation",
+    "loading_screen": "assets/images/loading-screens/halo-ce/03_the-truth-and-reconciliation.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 4,
+    "mission": "The Silent Cartographer",
+    "loading_screen": "assets/images/loading-screens/halo-ce/04_the-silent-cartographer.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 5,
+    "mission": "Assault on the Control Room",
+    "loading_screen": "assets/images/loading-screens/halo-ce/05_assault-on-the-control-room.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 6,
+    "mission": "343 Guilty Spark",
+    "loading_screen": "assets/images/loading-screens/halo-ce/06_343-guilty-spark.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 7,
+    "mission": "The Library",
+    "loading_screen": "assets/images/loading-screens/halo-ce/07_the-library.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 8,
+    "mission": "Two Betrayals",
+    "loading_screen": "assets/images/loading-screens/halo-ce/08_two-betrayals.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 9,
+    "mission": "Keyes",
+    "loading_screen": "assets/images/loading-screens/halo-ce/09_keyes.png"
+  },
+  {
+    "game": "Halo CE",
+    "game_slug": "halo-ce",
+    "mission_number": 10,
+    "mission": "The Maw",
+    "loading_screen": "assets/images/loading-screens/halo-ce/10_the-maw.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 1,
+    "mission": "The Armory",
+    "loading_screen": "assets/images/loading-screens/halo-2/01_the-armory.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 2,
+    "mission": "Cairo Station",
+    "loading_screen": "assets/images/loading-screens/halo-2/02_cairo-station.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 3,
+    "mission": "Outskirts",
+    "loading_screen": "assets/images/loading-screens/halo-2/03_outskirts.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 4,
+    "mission": "Metropolis",
+    "loading_screen": "assets/images/loading-screens/halo-2/04_metropolis.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 5,
+    "mission": "The Arbiter",
+    "loading_screen": "assets/images/loading-screens/halo-2/05_the-arbiter.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 6,
+    "mission": "The Oracle",
+    "loading_screen": "assets/images/loading-screens/halo-2/06_the-oracle.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 7,
+    "mission": "Delta Halo",
+    "loading_screen": "assets/images/loading-screens/halo-2/07_delta-halo.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 8,
+    "mission": "Regret",
+    "loading_screen": "assets/images/loading-screens/halo-2/08_regret.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 9,
+    "mission": "Sacred Icon",
+    "loading_screen": "assets/images/loading-screens/halo-2/09_sacred-icon.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 10,
+    "mission": "Quarantine Zone",
+    "loading_screen": "assets/images/loading-screens/halo-2/10_quarantine-zone.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 11,
+    "mission": "Gravemind",
+    "loading_screen": "assets/images/loading-screens/halo-2/11_gravemind.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 12,
+    "mission": "Uprising",
+    "loading_screen": "assets/images/loading-screens/halo-2/12_uprising.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 13,
+    "mission": "High Charity",
+    "loading_screen": "assets/images/loading-screens/halo-2/13_high-charity.png"
+  },
+  {
+    "game": "Halo 2",
+    "game_slug": "halo-2",
+    "mission_number": 14,
+    "mission": "The Great Journey",
+    "loading_screen": "assets/images/loading-screens/halo-2/14_the-great-journey.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 1,
+    "mission": "Sierra 117",
+    "loading_screen": "assets/images/loading-screens/halo-3/01_sierra-117.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 2,
+    "mission": "Crow's Nest",
+    "loading_screen": "assets/images/loading-screens/halo-3/02_crows-nest.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 3,
+    "mission": "Tsavo Highway",
+    "loading_screen": "assets/images/loading-screens/halo-3/03_tsavo-highway.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 4,
+    "mission": "The Storm",
+    "loading_screen": "assets/images/loading-screens/halo-3/04_the-storm.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 5,
+    "mission": "Floodgate",
+    "loading_screen": "assets/images/loading-screens/halo-3/05_floodgate.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 6,
+    "mission": "The Ark",
+    "loading_screen": "assets/images/loading-screens/halo-3/06_the-ark.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 7,
+    "mission": "The Covenant",
+    "loading_screen": "assets/images/loading-screens/halo-3/07_the-covenant.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 8,
+    "mission": "Cortana",
+    "loading_screen": "assets/images/loading-screens/halo-3/08_cortana.png"
+  },
+  {
+    "game": "Halo 3",
+    "game_slug": "halo-3",
+    "mission_number": 9,
+    "mission": "Halo",
+    "loading_screen": "assets/images/loading-screens/halo-3/09_halo.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 1,
+    "mission": "Tayari Plaza",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/01_tayari-plaza.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 2,
+    "mission": "Uplift Reserve",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/02_uplift-reserve.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 3,
+    "mission": "Kizingo Boulevard",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/03_kizingo-boulevard.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 4,
+    "mission": "ONI Alpha Site",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/04_oni-alpha-site.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 5,
+    "mission": "NMPD HQ",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/05_nmpd-hq.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 6,
+    "mission": "Kikowani Station",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/06_kikowani-station.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 7,
+    "mission": "Data Hive",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/07_data-hive.png"
+  },
+  {
+    "game": "Halo 3: ODST",
+    "game_slug": "halo-3-odst",
+    "mission_number": 8,
+    "mission": "Coastal Highway",
+    "loading_screen": "assets/images/loading-screens/halo-3-odst/08_coastal-highway.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 1,
+    "mission": "Dawn",
+    "loading_screen": "assets/images/loading-screens/halo-4/01_dawn.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 2,
+    "mission": "Requiem",
+    "loading_screen": "assets/images/loading-screens/halo-4/02_requiem.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 3,
+    "mission": "Forerunner",
+    "loading_screen": "assets/images/loading-screens/halo-4/03_forerunner.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 4,
+    "mission": "Infinity",
+    "loading_screen": "assets/images/loading-screens/halo-4/04_infinity.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 5,
+    "mission": "Reclaimer",
+    "loading_screen": "assets/images/loading-screens/halo-4/05_reclaimer.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 6,
+    "mission": "Shutdown",
+    "loading_screen": "assets/images/loading-screens/halo-4/06_shutdown.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 7,
+    "mission": "Composer",
+    "loading_screen": "assets/images/loading-screens/halo-4/07_composer.png"
+  },
+  {
+    "game": "Halo 4",
+    "game_slug": "halo-4",
+    "mission_number": 8,
+    "mission": "Midnight",
+    "loading_screen": "assets/images/loading-screens/halo-4/08_midnight.png"
+  }
+]
