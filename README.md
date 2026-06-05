@@ -1,4 +1,4 @@
-# Halo MCC Tracker
+# Halo MCC Tracker v1
 
 GitHub Pages tracker for Halo MCC Legendary campaign times.
 
