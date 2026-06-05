@@ -3042,7 +3042,7 @@ body::after {
 
 
 
-/* v142 MCC API pull UI */
+/* v143 MCC API pull UI */
 .mccapi-panel{margin:0 16px 16px;padding:14px;border:1px solid rgba(0,217,255,.18);background:rgba(3,12,22,.62);display:none}
 .mccapi-panel.open{display:block}
 .mccapi-panel h3{margin:0 0 8px;color:var(--cyan);letter-spacing:1px;font-size:18px}
@@ -3061,7 +3061,7 @@ body::after {
 .mccapi-small{font-size:12px;color:var(--muted)}
 
 
-/* v142 dashboard bar + game banner total fixes */
+/* v143 dashboard bar + game banner total fixes */
 .mode-summary b.solo-total,
 .mode-summary .solo-total {
   color: var(--cyan) !important;
@@ -3078,7 +3078,7 @@ body::after {
 }
 
 
-/* v142 database MCC API GitHub Actions info */
+/* v143 database MCC API GitHub Actions info */
 .mccapi-action-help {
   border: 1px solid rgba(0,217,255,.18);
   background: rgba(0,217,255,.045);
@@ -3993,7 +3993,46 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   let trackerData = sanitizeRemovedPageMissions(loadData());
-  saveData();
+  let remoteTrackerData = null;
+
+  function applyLoadedData(data, persist = true) {
+    trackerData = sanitizeRemovedPageMissions(data || cloneDefaults());
+    if (persist) saveData();
+    renderDatabase();
+    renderAllGamePages();
+  }
+
+  async function fetchRemoteCampaignTimes() {
+    const candidates = [
+      "data/campaign_times.json",
+      "public/data/campaign_times.json"
+    ];
+
+    for (const url of candidates) {
+      try {
+        const response = await fetch(`${url}?v=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) continue;
+        const data = await response.json();
+        if (data && typeof data === "object") return sanitizeRemovedPageMissions(data);
+      } catch (err) {
+        // Try next candidate.
+      }
+    }
+
+    return null;
+  }
+
+  async function loadRemoteCampaignTimesIntoTracker() {
+    const remote = await fetchRemoteCampaignTimes();
+    if (!remote) {
+      applyLoadedData(loadData(), true);
+      return false;
+    }
+
+    remoteTrackerData = JSON.parse(JSON.stringify(remote));
+    applyLoadedData(remote, true);
+    return true;
+  }
 
   function saveData() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(trackerData));
@@ -4323,7 +4362,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const parDiffPct = pct === null ? null : pct - 100;
       const status = dashboardStatusClass(best.total, campaignTargetTotal);
       const meterClass = status === "green" ? "under" : "over";
-      // v142: cover bars show progress toward the 3-hour target.
+      // v143: cover bars show progress toward the 3-hour target.
       // Under 3h: show how far under target they are.
       // Over 3h: show 100 minus the percent over target.
       let meterWidth = 0;
@@ -4986,7 +5025,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <select id="dbCampaignSelect">${campaignOptions}</select>
         <button type="button" id="dbSaveBtn">SAVE CHANGES</button>
         <button type="button" id="dbDownloadJsonBtn">DOWNLOAD JSON</button>
-        <button type="button" id="dbResetBtn">RESET TABLE</button>
+        <button type="button" id="dbResetBtn">RESET FROM GITHUB JSON</button>
+        <button type="button" id="dbReloadJsonBtn">RELOAD GITHUB JSON</button>
         <button type="button" id="mccapiPanelToggleBtn">MCC UPDATE INFO</button>
         <span id="dbSaveNote" class="db-save-note">Saved changes in this browser.</span>
         <span id="dbDownloadNote" class="db-save-note">Downloaded campaign_times.json.</span>
@@ -5007,7 +5047,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="mccapi-row">
           <span id="mccapiStatus" class="mccapi-status">Automated updates run through GitHub Actions. Paste import remains available below as a manual fallback.</span>
         </div>
-        <p>Manual fallback: choose the campaign for the pasted endpoint response, paste JSON, then import.</p>
+        <p>Manual fallback: choose the campaign for the pasted endpoint response, paste JSON, then import. Use RESET FROM GITHUB JSON or RELOAD GITHUB JSON to pull the latest deployed data file into this browser.</p>
         <div class="mccapi-row">
           <select id="mccapiPasteGameSelect">
             <option value="ce">Halo CE</option>
@@ -5094,14 +5134,30 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    document.getElementById("dbResetBtn").addEventListener("click", () => {
-      const ok = confirm("Are you sure you want to reset the table? This will replace all edited mission times and image paths with the defaults saved inside this tracker.");
+    document.getElementById("dbResetBtn").addEventListener("click", async () => {
+      const ok = confirm("Are you sure you want to reset the table? This will replace local browser edits with the current GitHub campaign_times.json data.");
       if (!ok) return;
-      trackerData = cloneDefaults();
-      saveData();
-      renderDatabase();
-      renderAllGamePages();
+
+      localStorage.removeItem(STORAGE_KEY);
+
+      const remote = await fetchRemoteCampaignTimes();
+      if (remote) {
+        remoteTrackerData = JSON.parse(JSON.stringify(remote));
+        applyLoadedData(remote, true);
+      } else {
+        applyLoadedData(cloneDefaults(), true);
+        alert("Could not fetch data/campaign_times.json. Reset used embedded fallback data.");
+      }
     });
+
+    const reloadBtn = document.getElementById("dbReloadJsonBtn");
+    if (reloadBtn) {
+      reloadBtn.addEventListener("click", async () => {
+        localStorage.removeItem(STORAGE_KEY);
+        const ok = await loadRemoteCampaignTimesIntoTracker();
+        alert(ok ? "Reloaded current GitHub data/campaign_times.json." : "Could not fetch current GitHub JSON.");
+      });
+    }
   }
 
   function renderAllGamePages() {
@@ -5111,8 +5167,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    renderDatabase();
-    renderAllGamePages();
+    loadRemoteCampaignTimesIntoTracker();
   });
 })();
 
