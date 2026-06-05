@@ -1,0 +1,16 @@
+Put the CONTENTS of this ZIP directly into the root of your GitHub repo.
+
+Do not put these files inside another nested folder.
+
+Your repo root should contain:
+
+.github/
+assets/
+data/
+scripts/
+.nojekyll
+README.md
+index.html
+
+GitHub Pages should publish from:
+main branch / root folder

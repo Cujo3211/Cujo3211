@@ -1,2 +1,1 @@
-Source: https://halo.wiki.gallery/images/b/b4/H2-ActivationIndex.png
-Local tracker path: public/assets/images/icons/ui/h2-activation-index-database.png
+Database icon uses the user-provided image, placed on a high-visibility badge for the Halo MCC Tracker UI.

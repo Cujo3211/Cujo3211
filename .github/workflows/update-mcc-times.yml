@@ -1,0 +1,52 @@
+name: Update MCC Campaign Times
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run without committing changes"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+jobs:
+  update-campaign-times:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pull MCC campaign times
+        env:
+          GAMERTAG: Cujo3211
+          MCC_API_SPARTAN_TOKEN: ${{ secrets.MCC_API_SPARTAN_TOKEN }}
+          MCC_API_COOKIE: ${{ secrets.MCC_API_COOKIE }}
+          MCC_API_AUTHORIZATION: ${{ secrets.MCC_API_AUTHORIZATION }}
+          MCC_API_DRY_RUN: ${{ inputs.dry_run == 'true' && '1' || '0' }}
+          CAMPAIGN_TIMES_PATH: data/campaign_times.json
+        run: node scripts/update-mcc-times.js
+
+      - name: Show changed files
+        run: git status --short
+
+      - name: Commit updated campaign times
+        if: ${{ inputs.dry_run != 'true' }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update MCC campaign times from Halo Waypoint API"
+          file_pattern: public/data/campaign_times.json

@@ -57,7 +57,7 @@
         "image": "assets/images/loading-screens/halo-ce/07_the-library.png",
         "par": "0:25:00",
         "playable": true,
-        "solo": "43:43",
+        "solo": "",
         "coop": "0:50:33"
       },
       {
@@ -66,7 +66,7 @@
         "par": "0:20:00",
         "playable": true,
         "solo": "",
-        "coop": "51:28"
+        "coop": "0:51:28"
       },
       {
         "name": "Keyes",
@@ -82,7 +82,7 @@
         "par": "0:15:00",
         "playable": true,
         "solo": "",
-        "coop": "26:31"
+        "coop": "0:26:31"
       }
     ]
   },
@@ -282,22 +282,6 @@
     "icon": "https://halo.wiki.gallery/images/6/6d/HTMCC_H3-ODST_Title_Icon.png",
     "missions": [
       {
-        "name": "Prepare To Drop",
-        "image": "assets/images/loading-screens/odst/h3odst-prepare-to-drop-loadscreen.png",
-        "par": "",
-        "playable": false,
-        "solo": "",
-        "coop": ""
-      },
-      {
-        "name": "Mombasa Streets",
-        "image": "assets/images/loading-screens/odst/h3odst-mombasa-streets-loadscreen.png",
-        "par": "",
-        "playable": false,
-        "solo": "",
-        "coop": ""
-      },
-      {
         "name": "Tayari Plaza",
         "image": "assets/images/loading-screens/halo-3-odst/01_tayari-plaza.png",
         "par": "0:03:00",
@@ -319,7 +303,7 @@
         "par": "0:09:00",
         "playable": true,
         "solo": "",
-        "coop": "14:25"
+        "coop": "0:14:25"
       },
       {
         "name": "ONI Alpha Site",
@@ -327,7 +311,7 @@
         "par": "0:13:00",
         "playable": true,
         "solo": "",
-        "coop": "11:56"
+        "coop": "0:11:56"
       },
       {
         "name": "NMPD HQ",
@@ -335,7 +319,7 @@
         "par": "0:10:00",
         "playable": true,
         "solo": "",
-        "coop": "11:27"
+        "coop": "0:11:27"
       },
       {
         "name": "Kikowani Station",
@@ -351,7 +335,7 @@
         "par": "0:16:00",
         "playable": true,
         "solo": "",
-        "coop": "20:34"
+        "coop": "0:20:34"
       },
       {
         "name": "Coastal Highway",
@@ -359,7 +343,7 @@
         "par": "0:25:00",
         "playable": true,
         "solo": "",
-        "coop": "26:04"
+        "coop": "0:26:04"
       }
     ]
   },
@@ -368,14 +352,6 @@
     "short": "REACH",
     "icon": "https://halo.wiki.gallery/images/2/27/HTMCC_HR_Title_Icon.png",
     "missions": [
-      {
-        "name": "Noble Actual",
-        "image": "assets/images/loading-screens/reach/hr-noble-actual-loadscreen.png",
-        "par": "",
-        "playable": false,
-        "solo": "",
-        "coop": ""
-      },
       {
         "name": "Winter Contingency",
         "image": "assets/images/loading-screens/halo-reach/01_winter-contingency.png",
