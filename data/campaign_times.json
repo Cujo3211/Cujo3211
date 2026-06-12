@@ -9,15 +9,15 @@
         "image": "assets/images/loading-screens/halo-ce/01_the-pillar-of-autumn.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:24:26",
-        "coop": "0:11:02"
+        "solo": "0:24:25",
+        "coop": "0:11:01"
       },
       {
         "name": "Halo",
         "image": "assets/images/loading-screens/halo-ce/02_halo.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "1:25:15",
+        "solo": "1:25:14",
         "coop": "0:26:01"
       },
       {
@@ -26,14 +26,14 @@
         "par": "0:20:00",
         "playable": true,
         "solo": "2:55:52",
-        "coop": "0:37:30"
+        "coop": "0:37:29"
       },
       {
         "name": "The Silent Cartographer",
         "image": "assets/images/loading-screens/halo-ce/04_the-silent-cartographer.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:50:48",
+        "solo": "0:50:47",
         "coop": "0:20:27"
       },
       {
@@ -57,8 +57,8 @@
         "image": "assets/images/loading-screens/halo-ce/07_the-library.png",
         "par": "0:25:00",
         "playable": true,
-        "solo": "0:43:44",
-        "coop": "0:50:34"
+        "solo": "0:43:43",
+        "coop": "0:50:33"
       },
       {
         "name": "Two Betrayals",
@@ -66,7 +66,7 @@
         "par": "0:20:00",
         "playable": true,
         "solo": "",
-        "coop": "0:51:29"
+        "coop": "0:51:28"
       },
       {
         "name": "Keyes",
@@ -96,7 +96,7 @@
         "image": "assets/images/loading-screens/halo-2/02_cairo-station.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:18:40",
+        "solo": "0:18:39",
         "coop": "0:36:11"
       },
       {
@@ -104,16 +104,16 @@
         "image": "assets/images/loading-screens/halo-2/03_outskirts.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:10:14",
-        "coop": "0:13:43"
+        "solo": "0:10:13",
+        "coop": "0:13:42"
       },
       {
         "name": "Metropolis",
         "image": "assets/images/loading-screens/halo-2/04_metropolis.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:15:01",
-        "coop": "0:23:16"
+        "solo": "0:15:00",
+        "coop": "0:23:15"
       },
       {
         "name": "The Arbiter",
@@ -121,23 +121,23 @@
         "par": "0:15:00",
         "playable": true,
         "solo": "0:09:06",
-        "coop": "0:31:52"
+        "coop": "0:31:51"
       },
       {
         "name": "The Oracle",
         "image": "assets/images/loading-screens/halo-2/06_the-oracle.png",
         "par": "0:25:00",
         "playable": true,
-        "solo": "0:19:07",
-        "coop": "0:49:53"
+        "solo": "0:19:06",
+        "coop": "0:49:52"
       },
       {
         "name": "Delta Halo",
         "image": "assets/images/loading-screens/halo-2/07_delta-halo.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:06:34",
-        "coop": "0:29:53"
+        "solo": "0:06:33",
+        "coop": "0:29:52"
       },
       {
         "name": "Regret",
@@ -145,14 +145,14 @@
         "par": "0:15:00",
         "playable": true,
         "solo": "0:19:27",
-        "coop": "1:15:10"
+        "coop": "1:15:09"
       },
       {
         "name": "Sacred Icon",
         "image": "assets/images/loading-screens/halo-2/09_sacred-icon.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:13:24",
+        "solo": "0:13:23",
         "coop": "1:22:17"
       },
       {
@@ -177,7 +177,7 @@
         "par": "0:15:00",
         "playable": true,
         "solo": "0:01:51",
-        "coop": "0:30:00"
+        "coop": "0:29:59"
       },
       {
         "name": "High Charity",
@@ -185,7 +185,7 @@
         "par": "0:15:00",
         "playable": true,
         "solo": "0:10:24",
-        "coop": "0:43:21"
+        "coop": "0:43:20"
       },
       {
         "name": "The Great Journey",
@@ -207,7 +207,7 @@
         "image": "assets/images/loading-screens/halo-3/01_sierra-117.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:26:41",
+        "solo": "0:26:40",
         "coop": "0:16:58"
       },
       {
@@ -215,8 +215,8 @@
         "image": "assets/images/loading-screens/halo-3/02_crows-nest.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "0:17:39",
-        "coop": "0:23:43"
+        "solo": "0:17:38",
+        "coop": "0:23:42"
       },
       {
         "name": "Tsavo Highway",
@@ -239,8 +239,8 @@
         "image": "assets/images/loading-screens/halo-3/05_floodgate.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:05:57",
-        "coop": "0:13:23"
+        "solo": "0:05:56",
+        "coop": "0:13:22"
       },
       {
         "name": "The Ark",
@@ -255,15 +255,15 @@
         "image": "assets/images/loading-screens/halo-3/07_the-covenant.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "0:39:02",
-        "coop": "0:40:24"
+        "solo": "0:39:01",
+        "coop": "0:40:23"
       },
       {
         "name": "Cortana",
         "image": "assets/images/loading-screens/halo-3/08_cortana.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:16:48",
+        "solo": "0:16:47",
         "coop": "0:19:57"
       },
       {
@@ -286,7 +286,7 @@
         "image": "assets/images/loading-screens/halo-3-odst/01_tayari-plaza.png",
         "par": "0:03:00",
         "playable": true,
-        "solo": "0:20:24",
+        "solo": "0:20:23",
         "coop": "0:13:26"
       },
       {
@@ -294,7 +294,7 @@
         "image": "assets/images/loading-screens/halo-3-odst/02_uplift-reserve.png",
         "par": "0:04:00",
         "playable": true,
-        "solo": "0:03:41",
+        "solo": "0:03:40",
         "coop": "0:12:14"
       },
       {
@@ -303,7 +303,7 @@
         "par": "0:09:00",
         "playable": true,
         "solo": "",
-        "coop": "0:14:26"
+        "coop": "0:14:25"
       },
       {
         "name": "ONI Alpha Site",
@@ -319,14 +319,14 @@
         "par": "0:10:00",
         "playable": true,
         "solo": "",
-        "coop": "0:11:28"
+        "coop": "0:11:27"
       },
       {
         "name": "Kikowani Station",
         "image": "assets/images/loading-screens/halo-3-odst/06_kikowani-station.png",
         "par": "0:10:00",
         "playable": true,
-        "solo": "0:09:43",
+        "solo": "0:09:42",
         "coop": "0:14:29"
       },
       {
@@ -335,7 +335,7 @@
         "par": "0:16:00",
         "playable": true,
         "solo": "",
-        "coop": "0:20:35"
+        "coop": "0:20:34"
       },
       {
         "name": "Coastal Highway",
@@ -343,7 +343,7 @@
         "par": "0:25:00",
         "playable": true,
         "solo": "",
-        "coop": "0:26:05"
+        "coop": "0:26:04"
       }
     ]
   },
@@ -357,15 +357,15 @@
         "image": "assets/images/loading-screens/halo-reach/01_winter-contingency.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:16:15",
-        "coop": "0:21:56"
+        "solo": "0:16:14",
+        "coop": "0:21:55"
       },
       {
         "name": "ONI: Sword Base",
         "image": "assets/images/loading-screens/halo-reach/02_oni-sword-base.png",
         "par": "0:10:00",
         "playable": true,
-        "solo": "0:16:25",
+        "solo": "0:16:24",
         "coop": "0:20:17"
       },
       {
@@ -373,7 +373,7 @@
         "image": "assets/images/loading-screens/halo-reach/03_nightfall.png",
         "par": "0:10:00",
         "playable": true,
-        "solo": "0:08:31",
+        "solo": "0:08:30",
         "coop": "0:05:49"
       },
       {
@@ -405,7 +405,7 @@
         "image": "assets/images/loading-screens/halo-reach/07_new-alexandria.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "0:32:11",
+        "solo": "0:32:10",
         "coop": "0:28:36"
       },
       {
@@ -422,7 +422,7 @@
         "par": "0:20:00",
         "playable": true,
         "solo": "0:24:22",
-        "coop": "0:39:18"
+        "coop": "0:39:17"
       },
       {
         "name": "Lone Wolf",
@@ -430,7 +430,7 @@
         "par": "",
         "playable": true,
         "solo": "0:00:21",
-        "coop": "0:00:53"
+        "coop": "0:00:52"
       }
     ]
   },
@@ -452,8 +452,8 @@
         "image": "assets/images/loading-screens/halo-4/02_requiem.png",
         "par": "0:15:00",
         "playable": true,
-        "solo": "0:33:30",
-        "coop": "0:20:42"
+        "solo": "0:33:29",
+        "coop": "0:20:41"
       },
       {
         "name": "Forerunner",
@@ -469,14 +469,14 @@
         "par": "0:25:00",
         "playable": true,
         "solo": "0:49:26",
-        "coop": "0:42:27"
+        "coop": "0:42:26"
       },
       {
         "name": "Reclaimer",
         "image": "assets/images/loading-screens/halo-4/05_reclaimer.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "0:20:15",
+        "solo": "0:20:14",
         "coop": "0:18:12"
       },
       {
@@ -484,7 +484,7 @@
         "image": "assets/images/loading-screens/halo-4/06_shutdown.png",
         "par": "0:20:00",
         "playable": true,
-        "solo": "0:19:45",
+        "solo": "0:19:44",
         "coop": "0:48:23"
       },
       {
@@ -493,14 +493,14 @@
         "par": "0:20:00",
         "playable": true,
         "solo": "0:31:43",
-        "coop": "0:39:44"
+        "coop": "0:21:31"
       },
       {
         "name": "Midnight",
         "image": "assets/images/loading-screens/halo-4/08_midnight.png",
         "par": "0:25:00",
         "playable": true,
-        "solo": "0:47:44",
+        "solo": "0:47:43",
         "coop": "0:40:56"
       }
     ]
