@@ -5036,44 +5036,5 @@ Changes:
 })();
 </script>
 
-
-<script>
-/* v141 non-playable mission cleanup.
-   These entries can appear from wort.gg, but the tracker should not show/import them. */
-(function(){
-  const NON_PLAYABLE_MISSION_NAMES = new Set([
-    "Prepare To Drop",
-    "Prepare to Drop",
-    "Mombasa Streets",
-    "Noble Actual"
-  ]);
-
-  function removeNonPlayableMissionsFromObject(obj) {
-    if (!obj || typeof obj !== "object") return obj;
-    Object.values(obj).forEach(game => {
-      if (game && Array.isArray(game.missions)) {
-        game.missions = game.missions.filter(m => {
-          if (!m) return false;
-          if (m.playable === false) return false;
-          if (NON_PLAYABLE_MISSION_NAMES.has(m.name)) return false;
-          return true;
-        });
-      }
-    });
-    return obj;
-  }
-
-  window.removeNonPlayableMissionsFromObject = removeNonPlayableMissionsFromObject;
-
-  document.addEventListener("DOMContentLoaded", () => {
-    ["campaignData", "currentData", "trackerData", "data"].forEach(key => {
-      try {
-        if (window[key]) removeNonPlayableMissionsFromObject(window[key]);
-      } catch (e) {}
-    });
-  });
-})();
-</script>
-
 </body>
 </html>
