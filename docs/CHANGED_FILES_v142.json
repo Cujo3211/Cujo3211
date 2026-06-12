@@ -1,0 +1,36 @@
+{
+  "changed_files": [
+    {
+      "path": "index.html",
+      "reason": "Updated wort.gg compare logic to hide rows where pulled time already matches current Solo or Co-op."
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "reason": "Added v142 changelog."
+    },
+    {
+      "path": "docs/CURRENT_VERSION.md",
+      "reason": "Updated current version notes."
+    },
+    {
+      "path": "docs/CHANGED_FILES_v142.json",
+      "reason": "Changed-file manifest."
+    }
+  ],
+  "checks": {
+    "v142_skip_logic_present": true,
+    "empty_message_updated": true,
+    "campaign_times_json_exists": true,
+    "only_one_campaign_times_json": true,
+    "nonplayable_prepare_removed": true,
+    "nonplayable_mombasa_removed": true,
+    "nonplayable_noble_removed": true,
+    "node_syntax_ok": true,
+    "one_root_only": true
+  },
+  "node_check": {
+    "ran": true,
+    "ok": true,
+    "stderr": ""
+  }
+}
