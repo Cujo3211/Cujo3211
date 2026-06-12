@@ -1,5 +1,14 @@
 # Halo MCC Tracker Changelog
 
+## v142 - Hide matching wort.gg pull results
+Date: 2026-06-05
+
+### Changed
+- Updated the wort.gg pull/compare flow.
+- If a pulled wort.gg time already matches the mission's current Solo or Co-op time, it is hidden from the review table.
+- The review table now only shows unmatched pulled times that need attention.
+- Updated empty-result/status wording to explain that matching times are hidden.
+
 ## v141 - Remove non-playable wort.gg entries
 Date: 2026-06-05
 

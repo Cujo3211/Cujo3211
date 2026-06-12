@@ -1,7 +1,7 @@
 # Current Halo MCC Tracker Version
 
 Current package:
-halo_mcc_tracker_v141_remove_nonplayables_2026-06-05.zip
+halo_mcc_tracker_v142_wort_skip_matching_times_2026-06-05.zip
 
 Current tracker file:
 index.html
@@ -13,10 +13,7 @@ Last updated:
 2026-06-05
 
 Notes:
-- Built from v140.
-- Active campaign times were updated from uploaded campaign_times(3).json.
-- Non-playable wort.gg entries were removed:
-  - Prepare To Drop
-  - Mombasa Streets
-  - Noble Actual
-- Times were normalized to h:mm:ss.
+- Built from v141.
+- wort.gg pull compare now hides rows where the pulled time already matches current Solo or current Co-op.
+- Review table only shows unmatched times that need attention.
+- Non-playable wort.gg entries remain removed/filtered.
